@@ -29,14 +29,19 @@
           <archive>
             <index>true</index>
             <manifest>
-              <addClasspath>true</addClasspath>
               <mainClass>io.repoOne.moduleOne.Main</mainClass>
+              <addClasspath>true</addClasspath>
+              <classpathPrefix>lib/</classpathPrefix>
             </manifest>
             <manifestEntries>
-              <classpath>.</classpath>
+              <Class-Path>.</Class-Path>
             </manifestEntries>
           </archive>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
