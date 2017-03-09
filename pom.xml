@@ -15,6 +15,10 @@
       <id>snapshotRepo</id>
       <url>file://${snapshotDirectory}</url>
     </snapshotRepository>
+    <repository>
+      <id>releaseRepo</id>
+      <url>file://${releaseDirectory}</url>
+    </repository>
   </distributionManagement>
   <build>
     <plugins>

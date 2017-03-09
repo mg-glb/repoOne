@@ -8,8 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BasePage {
   private WebDriver driver;
   private WebElement webElement;
-  
-  public void navigateDummy(String address, String selector){
+
+  public void navigateDummy(String address, String selector) {
     driver = new ChromeDriver();
     driver.navigate().to(address);
     webElement = driver.findElement(By.cssSelector(selector));
