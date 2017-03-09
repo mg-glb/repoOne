@@ -24,5 +24,6 @@
   </dependencies>
   <modules>
     <module>moduleOne</module>
+    <module>moduleTwo</module>
   </modules>
 </project>
