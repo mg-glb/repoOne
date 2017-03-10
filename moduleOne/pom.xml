@@ -3,7 +3,7 @@
   <parent>
     <groupId>io.repoOne</groupId>
     <artifactId>repoOne</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
   </parent>
   <artifactId>moduleOne</artifactId>
   <dependencies>

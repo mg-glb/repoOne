@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.repoOne</groupId>
   <artifactId>repoOne</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <packaging>pom</packaging>
   <name>repoOne</name>
   <url>http://maven.apache.org</url>
@@ -23,7 +22,7 @@
   <scm>
     <connection>scm:git:https://github.com/mg-glb/repoOne.git</connection>
     <developerConnection>scm:git:https://github.com/mg-glb/repoOne.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>repoOne-1.1</tag>
   </scm>
   <build>
     <plugins>
