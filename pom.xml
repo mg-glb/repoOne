@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.repoOne</groupId>
   <artifactId>repoOne</artifactId>
-  <version>1.1</version>
+  <version>1.2-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>repoOne</name>
   <url>http://maven.apache.org</url>
@@ -22,7 +22,7 @@
   <scm>
     <connection>scm:git:https://github.com/mg-glb/repoOne.git</connection>
     <developerConnection>scm:git:https://github.com/mg-glb/repoOne.git</developerConnection>
-    <tag>repoOne-1.1</tag>
+    <tag>HEAD</tag>
   </scm>
   <build>
     <plugins>
